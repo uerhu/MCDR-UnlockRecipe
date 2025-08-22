@@ -7,7 +7,7 @@
     "zh_cn": "允许玩家使用!!recipe解锁配方"
   },
   "author": "uerhu",
-  "link": "github.com/uerhu/MCDR-UnlockRecipe",
+  "link": "https://github.com/uerhu/MCDR-UnlockRecipe",
   "dependencies": {
     "mcdreforged": ">=2.1.0"
   }
