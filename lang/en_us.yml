@@ -1,0 +1,13 @@
+unlock_recipe:
+  help: "Allows players to unlock recipes using the !!recipe command"
+  success:
+    tell: "Recipes unlocked successfully!"
+    log: "Player {} unlocked game recipes"
+  no_permission:
+    tell: "You don't have permission to use this!"
+    log: "Player {} attempted to unlock recipes without permission"
+  no_player: "This command can only be used by players!"
+  announce:
+    prefix: "Use "
+    suffix: " to unlock recipes for viewing in mods like REI/JEI"
+    hover: "Click to unlock all recipes"

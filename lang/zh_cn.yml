@@ -1,0 +1,13 @@
+unlock_recipe:
+  help: "允许玩家使用!!recipe指令解锁游戏配方"
+  success:
+    tell: "配方已成功解锁！"
+    log: "玩家{}解锁了游戏配方"
+  no_permission:
+    tell: "你没有使用此功能的权限！"
+    log: "玩家{}尝试无权限解锁配方"
+  no_player: "该指令只能由玩家执行！"
+  announce:
+    prefix: "使用"
+    suffix: "解锁配方后可在REI/JEI等模组中查看"
+    hover: "点击解锁全部配方"
